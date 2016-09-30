@@ -1,7 +1,7 @@
-class Box{
+class Box2{
     double length, breadth, height;
     
-    Box(double x, double y, double z){
+    Box2(double x, double y, double z){
         length = x;
         breadth = y;
         height = z;
@@ -22,7 +22,7 @@ class Box{
 
 public class BoxWorld {
     public static void main(String[] args){
-        Box b = new Box(5,5,5);
+        Box2 b = new Box2(5,5,5);
         System.out.println(b.volume());
         System.out.println(b.tsa());
     }
